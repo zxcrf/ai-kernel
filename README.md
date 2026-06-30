@@ -25,6 +25,8 @@ The assistant has more text to obey, but less clear policy.
 
 Keep long-lived policy stable. Move execution details to places that can evolve.
 
+![AI Kernel model](assets/ai-kernel-model.svg)
+
 ```text
 Global Kernel
   - Stable engineering policy
@@ -97,6 +99,10 @@ only for a new independent implementation task.
   worktree and handoff continuity guidance.
 - [`kernel/README.md`](kernel/README.md): the boundary between kernel policy and
   evolvable capabilities.
+- [`docs/launch-copy.md`](docs/launch-copy.md): ready-to-post launch copy for
+  X, Hacker News, Reddit, and chat communities.
+- [`assets/ai-kernel-model.svg`](assets/ai-kernel-model.svg): a shareable
+  layered model diagram.
 
 ## Who This Is For
 
